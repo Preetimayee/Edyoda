@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EDYODA</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <style type="text/css">
+    .Topbar_Topbar_3Rg8U {
+    width: 100%;
+    font-size: 16px;
+    height: 3.375em;
+    top: 0;
+    left: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: left;
+    justify-content: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    z-index: 90;
+    padding: .625em 6% .75em;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: Open Sans,sans-serif
+}
+.Topbar_Dark_3l8Lt {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: absolute
+}
+.Topbar_Dark3l8Lt.TopbarTopbarSearchBar_1mwy9 {
+    background-color: white;
+    z-index: 110;
+    position: fixed
+}
+.Topbar_Light1gpMJ.TopbarTopbarSearchBar_1mwy9 {
+    background-color: #fff;
+    z-index: 110;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+.Logo_Logo_2isxd {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    font-family: Raleway,sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.08;
+    letter-spacing: -.9px;
+    text-align: left
+}
+.Logo_Light_2EwPM {
+    background-image: -webkit-linear-gradient(181deg,#0048ff,#0096ff),-webkit-linear-gradient(#000,#000);
+    background-image: -o-linear-gradient(181deg,#0048ff,#0096ff),-o-linear-gradient(#000,#000);
+    background-image: linear-gradient(269deg,#0048ff,#0096ff),linear-gradient(#000,#000);
+    color: #0084ff;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+.Topbar_Logo_lSAmV {
+    width: 9em;
+    height: 100%;
+    text-decoration: none
+}
+.NavigationLinks_NavigationLinks_1jolz {
+    font-size: 16px;
+    margin: -.25em 0;
+    width: 100%;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+}
+.NavigationLinks_Dark3Vutu .NavigationLinksSearchInput_1ntjQ::-webkit-input-placeholder {
+    color: #efefef;
+    opacity: .8
+}
+.NavigationLinks_Dark3Vutu .NavigationLinksSearchInput1ntjQ:-ms-input-placeholder,.NavigationLinksDark3Vutu .NavigationLinksSearchInput_1ntjQ::-ms-input-placeholder {
+    color: #efefef;
+    opacity: .8
+}
+.NavigationLinks_Dark3Vutu .NavigationLinksSearchInput_1ntjQ::placeholder {
+    color: #efefef;
+    opacity: .8
+}
+.NavigationLinks_Dark3Vutu .NavigationLinksSearchInput_1ntjQ {
+    border-bottom: .5px solid #ccc;
+    color: #efefef
+}
+.NavigationLinks_NonMobileOnly_1lJ7T {
+    display: none
+}
+    .NavigationLinks_NonMobileOnly_1lJ7T {
+        display: -ms-inline-flexbox;
+        display: inline-flex
+    }
+.NavigationLinks_NavigationLink_2hqo3 {
+    width: auto;
+    margin: 0;
+    -ms-flex-pack: distribute;
+    justify-content: space-around
+}
+.NavigationLinks_NavigationLink_2hqo3 li {
+    height: 100%
+}
+.NavigationLinks_NavigationLink2hqo3,.NavigationLinksNavigationLinks_1jolz {
+    padding: 0;
+    list-style: none;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%
+}
+.NavigationLink_NavigationLink_1T2UX {
+    font-size: 12px;
+    position: relative;
+    opacity: .8
+}
+.NavigationLink_NavigationLink1T2UX,.NavigationLinkNavigationLink_1T2UX a {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 0
+}
+.NavigationLink_NavigationLink_1T2UX a {
+    text-decoration: none;
+    padding: 1.5em 12%;
+    height: 100%;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .9px;
+    text-align: center;
+    border-bottom: 1px solid #efefef
+}
+.NavigationLink_NavigationLink_1T2UX a:hover {
+    text-decoration: none;
+    color: unset;
+    background-color: unset
+}
+.NavigationLink_NavigationLink_1T2UX>div {
+    width: 100%;
+    padding: 1.5em 12%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    height: 100%;
+    margin: 0;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .9px;
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 1px solid #efefef
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark_3WI61 a {
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkLight1Cx- a {
+    color: #000
+}
+.NavigationLink_NavigationLink1T2UX a.NavigationLinkactive2_nFI,.NavigationLinkNavigationLink1T2UX a:active,.NavigationLinkNavigationLink_1T2UX a:hover {
+    text-decoration: none
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61 .NavigationLinkHorizontalAlign_s1BGI {
+    color: #fff
+}
+
+.NavigationLink_NavigationLink1T2UX.NavigationLinkLight1Cx- .NavigationLink_HorizontalAlign_s1BGI {
+    color: #000
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61.NavigationLinkActiveLink1KCom,.NavigationLinkNavigationLink1T2UX.NavigationLinkLight1Cx-.NavigationLink_ActiveLink_1KCom {
+    background-color: #0096ff;
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61.NavigationLinkActiveLink1KCom .NavigationLinkHorizontalAlign_s1BGI {
+    color: #000
+}
+    .NavigationLink_NavigationLink1T2UX>div,.NavigationLinkNavigationLink_1T2UX a {
+        height: 100%;
+        margin: 0 10px;
+        padding: 12px 10px;
+        border-bottom: 4px solid transparent
+    }
+    @media(min-width: 768px) {
+    .NavigationLink_NavigationLink_1T2UX {
+        margin:0;
+        display: -ms-flexbox;
+        display: flex;
+        width: auto;
+        height: 100%;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 16px
+    }
+    .NavigationLink_NavigationLink1T2UX.NavigationLinkDark_3WI61 a {
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61 .NavigationLinkHorizontalAlign_s1BGI {
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61.NavigationLinkActiveLink1KCom,.NavigationLinkNavigationLink1T2UX.NavigationLinkLight1Cx-.NavigationLink_ActiveLink_1KCom {
+    background-color: #0096ff;
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61.NavigationLinkActiveLink1KCom .NavigationLinkHorizontalAlign_s1BGI {
+    color: #000
+}
+.NavigationLink_ProgramsText1z6x7.NavigationLinkDark_3WI61 {
+    color: #fff
+}
+.NavigationLink_HorizontalAlign_s1BGI {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: start
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61 .NavigationLinkHorizontalAlign_s1BGI {
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkLight1Cx- .NavigationLink_HorizontalAlign_s1BGI {
+    color: #000
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61.NavigationLinkActiveLink1KCom .NavigationLinkHorizontalAlign_s1BGI {
+    color: #000
+}
+.NavigationLink_ProgramsText1z6x7.NavigationLinkDark_3WI61 {
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark_3WI61 a {
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61 .NavigationLinkHorizontalAlign_s1BGI {
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61.NavigationLinkActiveLink1KCom,.NavigationLinkNavigationLink1T2UX.NavigationLinkLight1Cx-.NavigationLink_ActiveLink_1KCom {
+    background-color: #0096ff;
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61.NavigationLinkActiveLink1KCom .NavigationLinkHorizontalAlign_s1BGI {
+    color: #000
+}
+.NavigationLink_ProgramsText1z6x7.NavigationLinkDark_3WI61 {
+    color: #fff
+}
+.NavigationLink_HorizontalAlign_s1BGI {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-pack: start;
+    justify-content: start
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61 .NavigationLinkHorizontalAlign_s1BGI {
+    color: #fff
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkLight1Cx- .NavigationLink_HorizontalAlign_s1BGI {
+    color: #000
+}
+.NavigationLink_NavigationLink1T2UX.NavigationLinkDark3WI61.NavigationLinkActiveLink1KCom .NavigationLinkHorizontalAlign_s1BGI {
+    color: #000
+}
+.NavigationLink_DropdownArrow_3bYcE {
+    padding-top: 0;
+    padding-left: 8px
+}
+.NavigationLinks_RightEndMenus_m2UeA {
+    margin-top: auto;
+    padding: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    list-style: none
+}
+.NavigationLinks_SearchIcon_3Wzs9 {
+    width: 1.25em;
+    height: 1.25em;
+    margin-top: .75em;
+    margin-right: 1.125em;
+    cursor: pointer;
+    opacity: .8
+}
+.NavigationLinks_SearchIcon3Wzs9.NavigationLinksSearchDropDownOpen_3t4a6 {
+    margin-right: 0
+}
+@media screen and (min-width: 992px) {
+    .NavigationLinks_NavigationLinks_1jolz {
+        margin:-.1875em 20px -.1875em 2.5em;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+
+    .NavigationLinks_NavigationLink_2hqo3 li {
+        height: 100%
+    }
+
+    .NavigationLinks_NonMobileOnly_1lJ7T {
+        display: -ms-inline-flexbox;
+        display: inline-flex
+    }
+
+    .NavigationLinks_MobileOnly_3hdOY {
+        display: none
+    }
+
+    .NavigationLinks_SearchIcon_3Wzs9 {
+        width: 1.375em;
+        height: 1.375em;
+        margin-top: .25em;
+        margin-bottom: .25em;
+        margin-right: .75em;
+        cursor: pointer;
+        opacity: .8
+    }
+    .NavigationLinks_SearchIcon_3Wzs9>svg {
+        margin-top: .3em
+    }
+    .NavigationLinks_SearchIcon3Wzs9.NavigationLinksSearchDropDownOpen_3t4a6 {
+        margin-right: .5em
+    }
+}
+    .NavigationLinks_SearchIconPreLogin_33hyY {
+        margin-top: .65em
+    }
+    .NavigationLinks_LoginButton_vfcTS button {
+    width: 4.375em;
+    margin-right: 0
+}
+.Button_Button_QI7b2 {
+    width: auto;
+    height: 40px;
+    min-width: 100px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    border-radius: 30px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    padding: 8px 32px;
+    margin-right: 16px;
+    color: #fff;
+    outline: none;
+    font-family: Raleway,sans-serif;
+    font-size: .9em;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .03em;
+    background: #0084ff;
+    background: -webkit-linear-gradient(269deg,#0048ff,#0096ff);
+    background: -webkit-linear-gradient(181deg,#0048ff,#0096ff);
+    background: -o-linear-gradient(181deg,#0048ff,#0096ff);
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0084ff",endColorstr="#0052ff",GradientType=1)
+}
+.Button_Button_QI7b2:focus {
+    outline: none
+}
+.Button_ButtonQI7b2.ButtonTextOnlyButtonBlue_BRcx7 {
+    min-width: 4em;
+    font-weight: 700;
+    height: 30px
+}
+.Button_ButtonQI7b2.ButtonTextOnlyCommentButtonBlue2U9If,.ButtonButtonQI7b2.ButtonTextOnlyCommentButtonDark_3t6C0 {
+    min-width: 60px;
+    font-size: .8em
+}
+.Button_Button_QI7b2 {
+        min-width: 136px;
+        height: 42px;
+        border-radius: 35px
+    }
+
+.NavigationLinks_SignupButton_3Avpf button {
+    width: 8.125em;
+    margin-right: 0
+}
+.prgramsDetails{
+    color: black;
+}
+body{
+    background: linear-gradient(to right, #101012, #1b1b42);
+    }
+
+.container1{
+    height: 500px;
+    width: 600px;
+    position: absolute;
+    top: 90;
+    left: 100px;
+}
+.container2{
+    color: white;
+    font-size: 45px;
+}
+.container3{
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+}
+.container4{
+    margin: 2px;
+    padding: 2px;
+}
+.semi-square-container{
+      width: 340px;
+      height: 500px;
+      background-color: #f1f1f1;
+      border-radius: 2% 2% 2% 2%;
+      overflow: hidden;
+      position: absolute;
+      bottom: 1px;
+      left: 865px;
+}
+.circle {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #0e66eb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      position: absolute;
+    }
+.circle1{
+     bottom: 465px;
+     left: 945px;
+}
+.circle2{
+     bottom: 465px;
+     left: 1095px;
+}
+.signupContainer{
+     width: 60px;
+     position: absolute;
+     bottom: 445px;
+     left: 935px;
+}
+.SubscribeContainer{
+     position: absolute;
+     bottom: 445px;
+     left: 1078px;
+}
+.subcriptionContainer{
+     font-weight: bold;
+     width: 250px;
+     position: absolute;
+     bottom: 415px;
+     left: 930px;
+}
+.paymentContainer{
+    border: 2px solid gray;
+    height: 50px;
+    width: 300px;
+    border-radius: 4%;
+}
+.paymentContainerInactive{
+    background-color: gray;
+    opacity: 0.4;
+    position: absolute;
+    bottom: 355px;
+    left: 886px;
+}
+.paymentContainerActive {
+    position: absolute;
+    bottom: 295px;
+    left: 886px;
+}
+.paymentContainerActive:hover{
+    border: 2px solid green;
+    box-shadow: 10px 0px 10px 2px rgba(0, 0, 0, 0.3);
+}
+.paymentContainer6Months{
+    position: absolute;
+    bottom: 235px;
+    left: 886px;
+}
+.paymentContainer3Months{
+    position: absolute;
+    bottom: 175px;
+    left: 886px;
+}
+.SubmisiionLine{
+    width: 300px;
+    position: absolute;
+    bottom: 145px;
+    left: 886px;
+}
+hr{
+    border: black;
+      height: 2px;
+      background-color: black;
+}
+.ProceedToPayment {
+    position: absolute;
+    bottom: 45px;
+    left: 1060px;
+}
+.CancelPayment{
+    position: absolute;
+    bottom: 45px;
+    left: 885px
+}
+.LimitedTimeOffer{
+    border: 2px solid gray;
+    height: 50px;
+    width: 300px;
+    border-radius: 4%;
+}
+.LimitedTimeOfferContainer{
+    position: absolute;
+    bottom: 86px;
+    left: 886px;
+}
+.PaymentGateway{
+    position: absolute;
+    bottom: 2px;
+    left: 886px;
+}
+
+    </style>
+</head>
+<header>
+    <div class="Topbar_Topbar3Rg8U TopbarDark3l8Lt TopbarTopbarSearchBar_1mwy9">
+        <a class="Topbar_LogolSAmV " href="/"><div><div class="LogoLogo2isxd LogoDark_2maiD">EDYODA</div></div></a>
+        <div class="NavigationLinks_NavigationLinks1jolz NavigationLinksDark_3Vutu">
+            <ul class="NavigationLinks_NonMobileOnly1lJ7T NavigationLinksNavigationLink_2hqo3">
+                <li>
+                    <div class="NavigationLink_NavigationLink1T2UX NavigationLinkDark_3WI61">
+                        
+                        <div class="prgramsDetails">
+                            Courses
+                        </div>
+                        <div class="prgramsDetails">
+                            programs
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul class="NavigationLinks_RightEndMenus_m2UeA ">
+                <li>
+                    <img class="NavigationLinks_SearchIcon3Wzs9 NavigationLinksSearchIconPreLogin_33hyY" src="https://img.icons8.com/?size=512&id=132&format=png" alt="search-icon">
+                </li>
+
+                <li class="NavigationLinks_LoginButtonvfcTS NavigationLinksNonMobileOnly_1lJ7T">
+                        <a href="www.google.com" style="width: auto; font-size: 1em; padding: 8px 16px; margin: 0px 8px 0px 0px; box-shadow: none; text-decoration: none; color: black;">Log In</a>
+                </li>
+
+                <li class="NavigationLinks_SignupButton3Avpf NavigationLinksNonMobileOnly_1lJ7T">
+                    <button id="signup-navbar" class="Button_ButtonQI7b2 ButtonDarkBlue_2yqaZ " style="width: auto; font-size: 1em; padding: 0.5em 2em; margin: 0px 1em 0px 0px; box-shadow: none;">JOIN NOW</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="container1">
+        <div class="container2">
+        Access Curated courses worth <span style="text-decoration: line-through; color:red">&#8377; 18,500</span> at just <span style="color: #044ac0;">&#8377; 99</span> per year!
+        </div>
+        <div class="container3">
+            <div class="container4">
+                <img src="https://img.icons8.com/?size=512&id=37917&format=png"; height="50px">&nbsp; &nbsp; <span style="color:#044ac0;">100+</span> Job relevant courses 
+            </div>
+            <div class="container4">
+                <img src="https://img.icons8.com/?size=512&id=82767&format=png"; height="50px"> &nbsp; &nbsp;<span style="color:#044ac0">20,000+</span> Hours of content
+            </div>
+            <div class="container4">
+                <img src="https://img.icons8.com/?size=512&id=2772&format=png"; height="50px"> &nbsp; &nbsp;<span style="color:#044ac0">Exclusive</span> webinar access
+            </div>
+            <div class="container4">
+                <img src="https://img.icons8.com/?size=512&id=79630&format=png"; height="50px">&nbsp; &nbsp; Scholarship worth <span style="color:#044ac0">&#8377; 94,500</span>
+            </div>
+            <div class="container4">
+                <img src="https://img.icons8.com/?size=512&id=ZchS_Cvv3-jV&format=png"; height="50px">&nbsp; &nbsp;<span style="color:#044ac0"> Ad Free</span> learning experience
+            </div>
+        </div>
+
+        <div>
+            <div class="semi-square-container"></div>
+        </div>
+
+        <div class="circle circle1">
+            1
+        </div>
+        <div class="circle circle2">
+            2
+        </div>
+
+        <div class="signupContainer">
+            Sign Up
+        </div>
+        <div class="SubscribeContainer">
+            Subscribe
+        </div>
+
+        <div class="subcriptionContainer">
+            Select your subscription plan
+        </div>
+        
+        <div class="paymentContainer paymentContainerInactive">
+            <input type="radio" disabled style="margin: 16px;"> <span style="font-weight: bold;">12 Months Subscription</span>
+        </div>
+        <div class="paymentContainer paymentContainerActive">
+            <input type="radio" style="margin: 16px;"> <span style="font-weight: bold;">12 Months Subscription</span>
+        </div>
+        <div class="paymentContainer paymentContainer6Months">
+            <input type="radio" style="margin: 16px;"> <span style="font-weight: bold;">6 Months Subscription</span>
+        </div>
+        <div class="paymentContainer paymentContainer3Months">
+            <input type="radio" style="margin: 16px;"> <span style="font-weight: bold;">3 Months Subscription</span>
+        </div>
+        <div class="SubmisiionLine">
+            <hr>
+        </div>
+
+        <div class="ProceedToPayment">
+            <button type="button" class="btn btn-outline-success" style="width:125px"><span style="font-weight:bold; font-size: 12px;">PROCEED TO PAY</span></button>
+        </div>
+        <div class="CancelPayment">
+            <button type="button" class="btn btn-outline-danger" style="width:125px"><span style="font-weight:bold; font-size: 12px;">CANCEL</button>
+        </div>
+
+        <div class="LimitedTimeOffer LimitedTimeOfferContainer">
+            Limited time offer
+        </div>
+        <div class="PaymentGateway">
+            <a href="https://razorpay.com/" target="_blank"> <img referrerpolicy="origin" src = "https://badges.razorpay.com/badge-dark.png " style = "height: 40px; width: 90px;" alt = "Razorpay | Payment Gateway | Neobank"></a>
+        </div>
+    </div>
+</body>
+</html>
